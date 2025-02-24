@@ -22,6 +22,10 @@ Proyek ini memungkinkan pengguna untuk membaca UID kartu RFID menggunakan **RFID
 ---
 
 ## 🔌 **Wiring Diagram**
+Gambar
+### 📷 Wiring Diagram
+![Wiring Diagram](https://raw.githubusercontent.com/rickaux/project-keyless-kunci/refs/heads/devlopment/project%20keyless%20wiring%20diagram%20fritzing_bb.jpg)
+---
 ### **RFID RC522 ke Arduino**
 | Pin RFID | Pin Arduino |
 |----------|------------|
