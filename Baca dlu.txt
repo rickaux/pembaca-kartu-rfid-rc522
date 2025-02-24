@@ -1,0 +1,52 @@
+Berikut adalah kode untuk membaca UID kartu RFID dan menampilkannya di Serial Monitor serta LCD.
+
+Cara Penggunaan:
+
+Hubungkan perangkat sesuai dengan wiring berikut:
+
+RFID RC522
+- SDA → Pin 10 (SS)
+- SCK → Pin 13
+- MOSI → Pin 11
+- MISO → Pin 12
+- RST → Pin 9
+- 3.3V → 3.3V
+- GND → GND
+
+LCD 16x2 I2C:
+- SDA → A4
+- SCL → A5
+- VCC → 5V
+- GND → GND
+
+Pastikan Arduino IDE sudah terinstal dengan library:
+LiquidCrystal_I2C
+MFRC522
+Wire
+SPI
+
+
+Panduan Instalasi Library di Arduino IDE
+Untuk menjalankan program pembaca UID kartu RFID dengan LCD, Anda perlu menginstal beberapa library terlebih dahulu. Berikut adalah langkah-langkahnya:
+
+1️⃣ Instalasi Library MFRC522 (Untuk RFID RC522)
+- Buka Arduino IDE.
+- Klik Sketch → Include Library → Manage Libraries....
+- Ketik "MFRC522" pada kotak pencarian.
+- Pilih "MFRC522 by GithubCommunity".
+- Klik Install dan tunggu hingga selesai.
+
+2️⃣ Instalasi Library LiquidCrystal_I2C (Untuk LCD I2C)
+- Kembali ke Library Manager (Sketch → Include Library → Manage Libraries...).
+- Ketik "LiquidCrystal_I2C" di kotak pencarian.
+- Pilih "LiquidCrystal I2C by Frank de Brabander".
+- Klik Install.
+
+3️⃣ Instalasi Library Wire dan SPI (Bawaan Arduino IDE)
+   Library Wire dan SPI sudah termasuk dalam Arduino IDE secara default. Namun, jika terjadi error, Anda bisa menambahkannya secara manual:
+- Klik Sketch → Include Library → Wire.
+- Klik Sketch → Include Library → SPI.
+
+Setelah semua library terpasang, Anda bisa langsung mengunggah kode ke Arduino dan membaca UID kartu RFID! 🚀
+Unggah kode ke Arduino, buka Serial Monitor, dan tempelkan kartu RFID untuk melihat UID.
+Kode ini akan menampilkan UID di LCD dan Serial Monitor setiap kali kartu ditempelkan.
