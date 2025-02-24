@@ -111,8 +111,8 @@ void loop() {
 📷 **Screenshot hasil di Serial Monitor:**  
 ![Hasil di Serial Monitor](https://raw.githubusercontent.com/rickaux/pembaca-kartu-rfid-rc522/refs/heads/main/salah%20satu%20contoh%20uid%20di%20serial%20monitor.png)
 
-<video src="https://github.com/rickaux/pembaca-kartu-rfid-rc522/raw/main/demo%20pembaca%20uid%20rfid-rc522.mp4" controls width="600">
-</video>
+### 🎥 Demo Video
+[![Demo Video](https://img.youtube.com/vi/SuMWJamK6Lc/0.jpg)](https://youtu.be/SuMWJamK6Lc)
 
 ---
 
